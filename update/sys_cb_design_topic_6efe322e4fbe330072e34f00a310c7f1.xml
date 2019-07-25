@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__aefe322e42be3300d5f25c6132f8fcee">aafe322e4fbe330072e34f00a310c7ef</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"9411d779c2824bd6baf10913ec7a8e73","triggerType":"request","id":"9411d779c2824bd6baf10913ec7a8e73"}],"goals":[{"name":"primary","trigger_id":"9411d779c2824bd6baf10913ec7a8e73","nodes":[{"type":"StartGoal","goal_id":"f2239226139844a48e40acdda3ec007e","greeting_msg":{"type":"String","mode":"string","value":"I can help you find and update NeedIt records for a type of request."},"id":"9c5fd6a930d842e3938d99b55b669f54","name":"Start"},{"type":"TerminateGoal","goal_id":"f2239226139844a48e40acdda3ec007e","confirmation_msg":{"type":"String","mode":"string","value":"Ask again when you need to update other NeedIt records."},"id":"6c0e6fa231dd492ca595e729810a9980","name":"End"},{"type":"ChoiceInputPrompt","expression_mode":"simple","id":"7d66b794fe5740bdb50b20f699cadb5c","name":"NeedIt Type","goal_id":"f2239226139844a48e40acdda3ec007e","variable_id":"db148f0ae0ff4f82b7d3d756028c3096","message":{"type":"String","mode":"string","value":"What type of NeedIt record would you like to view?"},"optional":false}],"edges":[{"type":"Edge","source_node_id":"9c5fd6a930d842e3938d99b55b669f54","target_node_id":"7d66b794fe5740bdb50b20f699cadb5c","id":"80eae070df8042028201bbb990d55135"},{"type":"Edge","source_node_id":"7d66b794fe5740bdb50b20f699cadb5c","target_node_id":"6c0e6fa231dd492ca595e729810a9980","id":"011db121e7b84902871bf776c094b2c7"}],"id":"f2239226139844a48e40acdda3ec007e"}],"script_variables":[],"glide_variables":[{"type":"Choice","choices":[{"name":"Legal","element":"legal"},{"name":"Facilities","element":"facilities"},{"name":"Human Resources","element":"hr"}],"id":"db148f0ae0ff4f82b7d3d756028c3096","name":"needit_type"},{"type":"Reference","table":"sys_user","id":"current-user","name":"user"}],"roles":[],"scope":"637a32aa4fbe330072e34f00a310c731","id":"c05bb2aa4fbe330072e34f00a310c72f","name":"_PRVW__aefe322e42be3300d5f25c6132f8fcee","key_phrases":["Update NeedIt Records","NeedIt request"]}</design_definition>
+        <design_topic_id>c05bb2aa4fbe330072e34f00a310c72f</design_topic_id>
+        <name>_PRVW__aefe322e42be3300d5f25c6132f8fcee</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-25 15:59:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6efe322e4fbe330072e34f00a310c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_381168_needit_vi">637a32aa4fbe330072e34f00a310c731</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">637a32aa4fbe330072e34f00a310c731</sys_scope>
+        <sys_update_name>sys_cb_design_topic_6efe322e4fbe330072e34f00a310c7f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-25 15:59:10</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
